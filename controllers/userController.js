@@ -96,7 +96,7 @@ exports.signin = async (req, res) => {
 exports.getUserById = async (req, res) => {
   try {
     const userId = req.params.id;
-    const user = await User.findById(userId, "-senha");
+    const user = await User.findById(userId);
 
     if (!user) {
       return res.status(404).json({ error: "Usuário não encontrado." });
