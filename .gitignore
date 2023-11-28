@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Arquivos temporários
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.log.*
+npm-debug.log.*
+yarn-error.log.*
+pids
+logs
+
+# Diretórios gerados na construção
+dist/
+build/
+
+# Arquivos de configuração
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# Yarn
+yarn-debug.log
+yarn-error.log
+
+# Dependências locais
+/.pnp/
+.pnp.js
+
+# Arquivos de desenvolvimento
+.DS_Store
+Thumbs.db
